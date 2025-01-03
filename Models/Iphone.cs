@@ -2,7 +2,7 @@ namespace DesafioPOO.Models
 {
     public class Iphone : Smartphone
     {
-        public Nokia(string numero, string modelo, string imei, int memoria)
+        public Iphone(string numero, string modelo, string imei, int memoria)
             : base(numero, modelo, imei, memoria)
         {
         }
